@@ -114,3 +114,12 @@ header {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
+
+/* ----------------------------------------Footer */
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}

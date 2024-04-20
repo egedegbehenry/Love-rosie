@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 /*--------------------------------------------Colors*/
@@ -31,23 +30,6 @@
     background-color: #525252;
 }
 
-.row-table {
-    display: table;
-}
-
-.section-column {
-    display: table-cell;
-    padding: 0 30px 30px;
-    float: none;
-}
-
-.section-heading {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 40px;
-}
-
 /* ----------------------------------------Special paddings/margins/text */
 
 h1,
@@ -69,6 +51,23 @@ h4 {
 
 .inline-block {
     display: inline-block;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 /*--------------------------------------------Heading*/
@@ -225,4 +224,39 @@ footer {
 
 .three-reasons-heading {
     margin-bottom: 15px;
+}
+
+/* ----------------------------------------Personal Info */
+
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    position: relative;
+    width: 60%;
 }
